@@ -72,6 +72,6 @@ mv -f TODO.utf8 TODO
 %attr(2755,root,games) %{_bindir}/%{name}
 %{_mandir}/man6/%{name}.6*
 %{_infodir}/%{name}.info.*
-%attr(0775,root,games) %{_localstatedir}/games/%{name}
+%dir %attr(0775,root,games) %{_localstatedir}/games/%{name}
 %config(noreplace) %attr(664,root,games) %{_localstatedir}/games/%{name}/mbscore
 
