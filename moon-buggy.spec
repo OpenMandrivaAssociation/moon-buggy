@@ -75,3 +75,14 @@ mv -f TODO.utf8 TODO
 %dir %attr(0775,root,games) %{_localstatedir}/games/%{name}
 %config(noreplace) %attr(664,root,games) %{_localstatedir}/games/%{name}/mbscore
 
+
+
+%changelog
+* Fri Jun 01 2012 Andrey Bondrov <abondrov@mandriva.org> 1.0.51-2
++ Revision: 801732
+- Spec cleanup
+
+* Tue Dec 06 2011 Andrey Bondrov <abondrov@mandriva.org> 1.0.51-1
++ Revision: 738362
+- imported package moon-buggy
+
