@@ -1,7 +1,7 @@
 Summary:	Drive and jump with some kind of car across the moon
 Name:		moon-buggy
 Version:	1.0.51
-Release:	2
+Release:	3
 License:	GPLv2
 Group:		Games/Arcade
 URL:		http://seehuhn.de/pages/%{name}
