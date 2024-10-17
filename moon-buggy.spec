@@ -4,7 +4,7 @@ Version:	1.0.51
 Release:	3
 License:	GPLv2
 Group:		Games/Arcade
-URL:		http://seehuhn.de/pages/%{name}
+URL:		https://seehuhn.de/pages/%{name}
 Source0:	http://seehuhn.de/media/programs/%{name}-%{version}.tar.gz
 Source1:	http://seehuhn.de/media/programs/%{name}-sound-%{version}.tar.gz
 Source2:	%{name}.desktop
