@@ -11,6 +11,8 @@ Source2:	%{name}.desktop
 Source3:	%{name}-sound.desktop
 Patch0:		moon-buggy-1.0.51-pause.patch
 Patch1:		moon-buggy-1.0.51-sound.patch
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires:	ncurses-devel
 BuildRequires:	esound-devel
 BuildRequires:	desktop-file-utils
